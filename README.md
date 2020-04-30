@@ -1,6 +1,6 @@
 This is an Image-gallery application.
 images are loaded by api call and can be zoomed and liked.
-
+search any image in the search bar it is dynamically fetched from Unsplash using query 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
