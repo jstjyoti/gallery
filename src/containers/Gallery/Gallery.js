@@ -3,10 +3,11 @@ import axios from 'axios';
 
 import '../../App.css';
 import ImgList from '../../components/GalleryImage/ImgList';
+import withErrorHandler from '../../hoc/WithErrorHandler/WithErrorHandler';
 import SearchForm from '../../components/Search/Search';
 import Spinner from '../../components/UI/Spinner/Spinner';
 
-export default class Gallery extends Component {
+class Gallery extends Component {
 	constructor() {
 		super();
 		this.state = {
@@ -14,7 +15,7 @@ export default class Gallery extends Component {
       loadingState: true,
       error: false
     };
-	}
+  }
   
 	componentDidMount() {
 		this.performSearch();
@@ -23,7 +24,7 @@ export default class Gallery extends Component {
 	performSearch = (query = 'night') => {
 		axios
 			.get(
-				`https://api.unsplash.com/search/photos/?page=1&per_page=12&query=${query}&client_id=tuxLMZ3ZoydOfuVl9hjZFXqWjiStx91WADRWZgPtYqg`
+				`https://api.unsplash.com/search/photos/?page=1&per_page=18&query=${query}&client_id=tuxLMZ3ZoydOfuVl9hjZFXqWjiStx91WADRWZgPtYqg`
 			)
 			.then(data => {
 				this.setState({ imgs: data.data.results, loadingState: false });
@@ -51,3 +52,5 @@ export default class Gallery extends Component {
 		);
 	}
 }
+
+export default withErrorHandler(Gallery, axios)
