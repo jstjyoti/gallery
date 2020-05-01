@@ -4,14 +4,14 @@
   position: absolute;
   top: 0.5%;
   left: 1%;
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   border: 2px solid #EEE;
-  border-radius: 40%;
+  border-radius: 50%;
   cursor: pointer;
   z-index: 50px;
 }
 
 .heart{
-  margin: 6px 0px;
+  margin: 5px 0px;
 }
