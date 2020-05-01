@@ -14,6 +14,7 @@ images are loaded by api call and can be zoomed and liked.
 4. [Searching blank string](/public/screenshots/Home_gallery.png)
 5. [on Clicking the image zoom icon shows up](/public/screenshots/zoom_icon_onClick.png)
 6. [Zoomed in image with zoom-out icon to revert back to previous state](/public/screenshots/zoomed-inImage.png)
+
 ### To run the project 
   * npm install
   * npm start
