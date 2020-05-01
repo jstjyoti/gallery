@@ -1,0 +1,17 @@
+.Like{
+  background-color: #EEE;
+  display: block;
+  position: absolute;
+  top: 0.5%;
+  left: 1%;
+  height: 50px;
+  width: 50px;
+  border: 2px solid #EEE;
+  border-radius: 40%;
+  cursor: pointer;
+  z-index: 50px;
+}
+
+.heart{
+  margin: 6px 0px;
+}
