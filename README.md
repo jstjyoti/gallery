@@ -7,7 +7,7 @@ images are loaded by api call and can be zoomed and liked.
 **Click on top right zoom-out icon on the zoomed image to bring back to original state**
 **To Like/unlike images click on top-left heart icon, by default images are unliked**
 
-## Screenshots of Images
+## Screenshots of Features
 1. [Home page](/public/screenshots/Home_gallery.png)
 2. [Searching valid string](/public/screenshots/beforeSearch.png)
 3. [Results of Valid Search and liking a picture](/public/screenshots/search_result_and_like.png)
