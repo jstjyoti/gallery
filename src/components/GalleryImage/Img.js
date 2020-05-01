@@ -17,7 +17,7 @@ class Img extends Component{
   render(){
     return <li>
     <a href={this.props.modalOpen} className="img-wrap ">
-      <Like click={this.likeHandler} colored={this.state.liked ? '#ff0000' : '#dddddd'}></Like>
+      <Like click={this.likeHandler} colored={this.state.liked ? '#ff0000' : '#aaaaaa'}></Like>
       <img src={this.props.url} onClick={this.zoomedHandler} alt="Unsplash Image here" />
       <Modal show={this.state.zoomed} modalClosed={this.zoomedHandler}>
         <img src={this.props.url} onClick={this.zoomedHandler} alt="Unsplash Image here" /> 
