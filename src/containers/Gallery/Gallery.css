@@ -5,3 +5,41 @@
   margin: 0 10px;
   justify-content: center;
 }
+
+.main-title {
+  font-size: 1.4em;
+  line-height: 80px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.inner,
+.main-content {
+  width: 90%;
+  max-width: 1025px;
+  margin: auto;
+}
+
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  min-height: 80px;
+  z-index: 1000;
+}
+
+.main-content::after {
+  content: " ";
+  display: flex;
+  flex-wrap: wrap;
+  clear: both;
+}
+
+@media (min-width: 769px) {
+  .main-title {
+    float: left;
+  }
+}

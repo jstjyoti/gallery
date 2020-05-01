@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
-import '../../App.css';
+import './Gallery.css';
 import ImgList from '../../components/GalleryImage/ImgList';
 import withErrorHandler from '../../hoc/WithErrorHandler/WithErrorHandler';
 import SearchForm from '../../components/Search/Search';

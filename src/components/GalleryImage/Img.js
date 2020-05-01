@@ -40,7 +40,7 @@ class Img extends Component{
       <img src={this.props.url} onClick={this.enableZoom} style={{'cursor': 'zoom-in'}} alt="Unsplash pictures here" />
       {zoom}
       {this.state.isZoomed ? <Modal show={this.state.isZoomed} modalClicked={this.zoomOut}>
-        <img src={this.props.url} onClick={this.enableZoom} style={{'cursor': 'zoom-in'}} alt="Unsplash pictures here" />
+        <img src={this.props.url} alt="Unsplash pictures here" />
         <span className="zoomer-above" onClick={this.zoomOut}><i className=" fa fa-search-minus " style={{fontSize: '16px'}} disabled={!this.state.showZoomOut}></i>
         </span>
       </Modal>: <></>}
