@@ -1,6 +1,23 @@
+## MY GALLERY
+
 This is an Image-gallery application.
 images are loaded by api call and can be zoomed and liked.
-search any image in the search bar it is dynamically fetched from Unsplash using query 
+**search any image in the search bar it is dynamically fetched from Unsplash using query.**
+**To zoom, click on the image the zoom icon will appear on top-right, click on the icon to zoom-in.**
+**Click on top right zoom-out icon on the zoomed image to bring back to original state**
+**To Like/unlike images click on top-left heart icon, by default images are unliked**
+
+## Screenshots of Images
+1. [Home page](/public/screenshots/Home_gallery.png)
+2. [Searching valid string](/public/screenshots/beforeSearch.png)
+3. [Results of Valid Search and liking a picture](/public/screenshots/search_result_and_like.png)
+4. [Searching blank string](/public/screenshots/Home_gallery.png)
+5. [on Clicking the image zoom icon shows up](/public/screenshots/zoom_icon_onClick.png)
+6. [Zoomed in image with zoom-out icon to revert back to previous state](/public/screenshots/zoomed-inImage.png)
+### To run the project 
+  * npm install
+  * npm start
+  * see localhost:3000
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
