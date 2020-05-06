@@ -1,7 +1,4 @@
 
-.App {
-  text-align: center;
-}
 
 * {
   box-sizing: border-box;
@@ -147,6 +144,7 @@ button {
     overflow: hidden;
     font-size: 0;
   }
+  
 }
 
 @media (min-width: 769px) {
@@ -169,5 +167,11 @@ button {
 @media (min-width: 769px) { 
   .img-list li:nth-of-type(3n+1) {
     clear: left;
+  }
+}
+
+@media (min-width: 550px){
+  .search-form{
+    float: right;
   }
 }

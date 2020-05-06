@@ -6,6 +6,7 @@ import ImgList from '../../components/GalleryImage/ImgList';
 import withErrorHandler from '../../hoc/WithErrorHandler/WithErrorHandler';
 import SearchForm from '../../components/Search/Search';
 import Spinner from '../../components/UI/Spinner/Spinner';
+import Toolbar from '../../components/UI/Toolbar/Toolbar';
 
 class Gallery extends Component {
 	constructor() {
@@ -37,9 +38,11 @@ class Gallery extends Component {
 	render() {
 		return (
 			<div>
+				<Toolbar toggledrawer={this.sideDrawerHandler}></Toolbar>
 				<div className="main-header">
+					
 					<div className="inner">
-						<h1 className="main-title">MyGallery</h1>
+						<h3>Look for themed photographs</h3>
 						<SearchForm onSearch={this.performSearch} />
 					</div>
 				</div>
