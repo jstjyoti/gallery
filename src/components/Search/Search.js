@@ -26,7 +26,7 @@ export default class SearchForm extends Component {
 					placeholder="Search..."
 				/>
 				<button type="submit" id="submit" className="search-button">
-					<i className="icn-search">Search</i>
+					<i className="fa fa-search icn-search"></i>
 				</button>
 			</form>
 		);
