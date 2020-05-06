@@ -14,16 +14,26 @@
   margin: 0;
 }
 
-.inner,
+.inner{
+  width: 100%;
+  max-width: 1025px;
+  margin: auto;
+  padding: 10px;
+}
+.inner h3{
+  display: inline-block;
+}
 .main-content {
   width: 90%;
   max-width: 1025px;
+  position: relative;
+  top: 10px;
   margin: auto;
 }
 
 .main-header {
   position: fixed;
-  top: 0;
+  top: 50px;
   left: 0;
   width: 100%;
   background: #fff;
@@ -41,5 +51,8 @@
 @media (min-width: 769px) {
   .main-title {
     float: left;
+  }
+  .main-content{
+    top: 30px;
   }
 }
