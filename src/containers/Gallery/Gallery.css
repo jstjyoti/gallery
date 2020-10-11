@@ -14,13 +14,13 @@
   margin: 0;
 }
 
-.inner{
+.inner-header{
   width: 100%;
   max-width: 1025px;
   margin: auto;
   padding: 10px;
 }
-.inner h3{
+.inner-header h3{
   display: inline-block;
 }
 .main-content {
@@ -36,7 +36,7 @@
   top: 50px;
   left: 0;
   width: 100%;
-  background: #fff;
+  background: #333;
   min-height: 80px;
   z-index: 1000;
 }
