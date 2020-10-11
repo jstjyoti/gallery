@@ -49,6 +49,20 @@ button {
   z-index: 2000;
 }
 
+.Theme{
+  background-color: #EEE;
+  display: block;
+  position: fixed;
+  top: 7%;
+  right: 1%;
+  height: 80px;
+  width: 100px;
+  border: 2px solid #EEE;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 100px;
+}
+
 
 .icon-img {
   font-size: 6em;

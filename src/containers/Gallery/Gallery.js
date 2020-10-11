@@ -41,7 +41,7 @@ class Gallery extends Component {
 				<Toolbar toggledrawer={this.sideDrawerHandler}></Toolbar>
 				<div className="main-header">
 					
-					<div className="inner">
+					<div className="inner-header">
 						<h3>Look for themed photographs</h3>
 						<SearchForm onSearch={this.performSearch} />
 					</div>
