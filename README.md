@@ -2,10 +2,11 @@
 
 This is an Image-gallery application.
 images are loaded by api call and can be zoomed and liked.
-**search any image in the search bar it is dynamically fetched from Unsplash using query.**
-**To zoom, click on the image the zoom icon will appear on top-right, click on the icon to zoom-in.**
-**Click on top right zoom-out icon on the zoomed image to bring back to original state**
-**To Like/unlike images click on top-left heart icon, by default images are unliked**
+* **search any image in the search bar it is dynamically fetched from Unsplash using query.**
+* **To zoom, click on the image the zoom icon will appear on top-right, click on the icon to zoom-in.**
+* **Click on top right zoom-out icon on the zoomed image to bring back to original state**
+* **To Like/unlike images click on top-left heart icon, by default images are unliked**
+* **Switch between Light and Dark Theme**
 
 ## Screenshots of Features
 1. [Home page](/public/screenshots/Home_gallery.png)
